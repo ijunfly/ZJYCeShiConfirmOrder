@@ -13,6 +13,9 @@
 		18DA24091E2385CA00AC73B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA24071E2385CA00AC73B6 /* Main.storyboard */; };
 		18DA240B1E2385CA00AC73B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DA240A1E2385CA00AC73B6 /* Assets.xcassets */; };
 		18DA240E1E2385CA00AC73B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA240C1E2385CA00AC73B6 /* LaunchScreen.storyboard */; };
+		18DA24181E2386B700AC73B6 /* ZJYCeShiConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA24171E2386B700AC73B6 /* ZJYCeShiConfirmOrderViewController.m */; };
+		18DA241B1E2386D300AC73B6 /* ZJYCeShiConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA241A1E2386D300AC73B6 /* ZJYCeShiConfirmOrderServiceProvide.m */; };
+		5C451D024C7129FBB931FA7C /* libPods-ZJYCeShiConfirmOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F5463D7C394ADB98834686 /* libPods-ZJYCeShiConfirmOrder.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		18DA240A1E2385CA00AC73B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DA240D1E2385CA00AC73B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DA240F1E2385CA00AC73B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DA24161E2386B700AC73B6 /* ZJYCeShiConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYCeShiConfirmOrderViewController.h; sourceTree = "<group>"; };
+		18DA24171E2386B700AC73B6 /* ZJYCeShiConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYCeShiConfirmOrderViewController.m; sourceTree = "<group>"; };
+		18DA24191E2386D300AC73B6 /* ZJYCeShiConfirmOrderServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYCeShiConfirmOrderServiceProvide.h; sourceTree = "<group>"; };
+		18DA241A1E2386D300AC73B6 /* ZJYCeShiConfirmOrderServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYCeShiConfirmOrderServiceProvide.m; sourceTree = "<group>"; };
+		35F5463D7C394ADB98834686 /* libPods-ZJYCeShiConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJYCeShiConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		933283881F42E9C0E75C8084 /* Pods-ZJYCeShiConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJYCeShiConfirmOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJYCeShiConfirmOrder/Pods-ZJYCeShiConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
+		CFF13F865E37908EBFCB01F7 /* Pods-ZJYCeShiConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJYCeShiConfirmOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJYCeShiConfirmOrder/Pods-ZJYCeShiConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C451D024C7129FBB931FA7C /* libPods-ZJYCeShiConfirmOrder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				18DA23FD1E2385CA00AC73B6 /* ZJYCeShiConfirmOrder */,
 				18DA23FC1E2385CA00AC73B6 /* Products */,
+				987F85BE1958E628A3029B42 /* Pods */,
+				7106A585B3AC16332E8A2740 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +71,7 @@
 		18DA23FD1E2385CA00AC73B6 /* ZJYCeShiConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
+				18DA24151E23868E00AC73B6 /* ZJYCeShiConfirmOrder */,
 				18DA24011E2385CA00AC73B6 /* AppDelegate.h */,
 				18DA24021E2385CA00AC73B6 /* AppDelegate.m */,
 				18DA24041E2385CA00AC73B6 /* ViewController.h */,
@@ -79,6 +93,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		18DA24151E23868E00AC73B6 /* ZJYCeShiConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				18DA24191E2386D300AC73B6 /* ZJYCeShiConfirmOrderServiceProvide.h */,
+				18DA241A1E2386D300AC73B6 /* ZJYCeShiConfirmOrderServiceProvide.m */,
+				18DA24161E2386B700AC73B6 /* ZJYCeShiConfirmOrderViewController.h */,
+				18DA24171E2386B700AC73B6 /* ZJYCeShiConfirmOrderViewController.m */,
+			);
+			path = ZJYCeShiConfirmOrder;
+			sourceTree = "<group>";
+		};
+		7106A585B3AC16332E8A2740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35F5463D7C394ADB98834686 /* libPods-ZJYCeShiConfirmOrder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		987F85BE1958E628A3029B42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFF13F865E37908EBFCB01F7 /* Pods-ZJYCeShiConfirmOrder.debug.xcconfig */,
+				933283881F42E9C0E75C8084 /* Pods-ZJYCeShiConfirmOrder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18DA24121E2385CA00AC73B6 /* Build configuration list for PBXNativeTarget "ZJYCeShiConfirmOrder" */;
 			buildPhases = (
+				EC6B78599C122C6A6140096F /* [CP] Check Pods Manifest.lock */,
 				18DA23F71E2385CA00AC73B6 /* Sources */,
 				18DA23F81E2385CA00AC73B6 /* Frameworks */,
 				18DA23F91E2385CA00AC73B6 /* Resources */,
+				B1EFA575FD7EB582803DF28C /* [CP] Embed Pods Frameworks */,
+				B299D433EA6A9E1D75B5E1F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,13 +190,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1EFA575FD7EB582803DF28C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJYCeShiConfirmOrder/Pods-ZJYCeShiConfirmOrder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B299D433EA6A9E1D75B5E1F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJYCeShiConfirmOrder/Pods-ZJYCeShiConfirmOrder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6B78599C122C6A6140096F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18DA23F71E2385CA00AC73B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18DA24061E2385CA00AC73B6 /* ViewController.m in Sources */,
+				18DA24181E2386B700AC73B6 /* ZJYCeShiConfirmOrderViewController.m in Sources */,
 				18DA24031E2385CA00AC73B6 /* AppDelegate.m in Sources */,
+				18DA241B1E2386D300AC73B6 /* ZJYCeShiConfirmOrderServiceProvide.m in Sources */,
 				18DA24001E2385CA00AC73B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +363,7 @@
 		};
 		18DA24131E2385CA00AC73B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF13F865E37908EBFCB01F7 /* Pods-ZJYCeShiConfirmOrder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZJYCeShiConfirmOrder/Info.plist;
@@ -279,6 +375,7 @@
 		};
 		18DA24141E2385CA00AC73B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933283881F42E9C0E75C8084 /* Pods-ZJYCeShiConfirmOrder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZJYCeShiConfirmOrder/Info.plist;

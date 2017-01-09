@@ -1,0 +1,15 @@
+PODS:
+  - ZJYCeShiConfirmOrderServiceProtocol (0.0.1)
+  - ZJYCeShiProtocolManager (0.0.4)
+
+DEPENDENCIES:
+  - ZJYCeShiConfirmOrderServiceProtocol
+  - ZJYCeShiProtocolManager
+
+SPEC CHECKSUMS:
+  ZJYCeShiConfirmOrderServiceProtocol: 5ad485c0653389bb7df4ee89831f7a921bc38ed4
+  ZJYCeShiProtocolManager: 9b0c1e4643415f01c992cb26e31350e4bd0b308b
+
+PODFILE CHECKSUM: 72af751d7d7c8e3ba22f2ab4c471b08e1d9a9fbc
+
+COCOAPODS: 1.1.1
