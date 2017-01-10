@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZJYCeShiConfirmOrder"
-  s.version      = "0.0.7"
+  s.version      = "0.0.3"
   s.summary      = "ZJYCeShiConfirmOrder."
 
   # This description is used to generate tags and improve search results.
